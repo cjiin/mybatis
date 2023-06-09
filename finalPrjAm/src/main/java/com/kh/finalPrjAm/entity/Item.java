@@ -17,7 +17,7 @@ public class Item {
     private Long id; // Primary Key
 
     @Column(nullable = false, length = 50) // null 허용 안하고 길이 50 제한
-    private String itemNum; // 상품 코드
+    private String itemNm; // 상품 코드
 
     @Column(nullable = false)
     private int price; // 가격
