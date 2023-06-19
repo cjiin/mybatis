@@ -46,5 +46,9 @@ public class ItemService {
         return itemDtos;
     }
 
-
+    // 상품 등록
+    public void saveItem(Item item) {
+        itemRepository.save(item);
+    }
 }
+
